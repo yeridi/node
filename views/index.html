@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main | GO</title>
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<style>
+    *{
+        text-decoration: none !important;
+    }
+    #nav-bar{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    .navbar{
+        background-image: linear-gradient(to right, #1750ba, #271782);
+    }
+    .navbar-toggler-icon{
+        color: #fff !important;
+    }
+    .navbar-toggler{
+        outline: none !important;
+    }
+
+    /* banner */
+    #banner{
+        background-image: linear-gradient(to right, #1750ba, #271782);
+        color: #fff;
+        padding-top: 5%;
+    }
+    .title__banner{
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 100px;
+    }
+    .image__play{
+        width: 45px;
+        margin: 20px;
+    }
+    #banner a{
+        color: #fff;
+    }
+    .img-fluit{
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+
+    /* services */
+
+    #services{
+        padding: 80px 0;
+    }
+    .img__services{
+        width: 150px;
+        margin-top: 50px;
+    }
+    .services{
+        padding: 20px;
+    }
+    .btn-primary{
+        background-image: linear-gradient(to right, #1750ba, #271782);
+        border-radius: 2rem;
+        border: none;
+    }
+
+    /* about us */
+    #about__us{
+        background:#f8f9fa;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .about__title{
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 8%;
+    }
+    .img__us{
+        width: 70%;
+    }
+    #about__us ul{
+        margin-left: 20px;
+    }
+    #about__us ul li{
+        margin: 10px 0;
+    }
+
+    /* TESTIMONIALS */
+    #testimonials{
+        margin: 100px 0;
+    }
+    .testimonials{
+        border-left: 4px solid #2f1798;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .testimonials img{
+        height: 60px;
+        width: 65px;
+        border-radius: 50%;
+        margin: 0 10px;
+    }
+    .details{
+        display: inline-block;
+        font-size: 12px;
+    }
+
+    /* social media */
+    #social__media{
+        background-color: #f8f9fa;
+        padding:100px 0;
+    }
+    #social__media p{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .social__icons img{
+        width: 60px;
+        transition: 500ms;
+    }
+    .social__icons img:hover{
+        transform: translateY(-10px);
+    }
+</style>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">GO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="/">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="/services">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="/form">CONTACT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="/about">ABOUT US</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- banner -->
+
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="title__banner">BEST DIGITAL AGENCY</p>
+                    <p>Subscribe to buy new tecnology like, E-commerce, Graphics Design, Software and anothers interesting</p>
+                    <a href=""><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c4f7.png" class="image__play">Look Our Works</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://www.adrenalina.es/wp-content/uploads/2020/04/desarrollo-de-aplicaciones-web.png" alt="" class="img-fluit">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">What we do?</h1>
+            <div class="row text-center">
+                <div class="col-md-4 services">
+                    <img src="https://png.pngtree.com/png-vector/20190611/ourlarge/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496210.jpg" alt="" class="img__services">
+                    <h4 class="p-2">Team of marketing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio assumenda vero minus odit libero quam asperiores repudiandae doloremque porro minima?</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="https://png.pngtree.com/png-vector/20190611/ourlarge/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496210.jpg" alt="" class="img__services">
+                    <h4 class="p-2">Team of marketing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio assumenda vero minus odit libero quam asperiores repudiandae doloremque porro minima?</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="https://png.pngtree.com/png-vector/20190611/ourlarge/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496210.jpg" alt="" class="img__services">
+                    <h4 class="p-2">Team of marketing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio assumenda vero minus odit libero quam asperiores repudiandae doloremque porro minima?</p>
+                </div>
+            </div>
+            <div class="text-center"><button class="btn btn-primary">All Services</button></div>
+        </div>
+    </section>
+
+    <!-- about us -->
+
+    <section id="about__us">
+        <div class="container">
+            <h1 class="text-center">Why Chose Us</h1>
+            <div class="row">
+                <div class="col-md-6 about__us">
+                    <p class="about__title">Why we are different</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://www.devservice.es/wp-content/uploads/2016/10/desarrollo-web-1.png" alt="" class="img__us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h1 class="text-center">WHAT CLIENT SAY?</h1>
+            <div class="row offset-1">
+                <div class="col-md-5 testimonials">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vero maiores, eum nihil esse eveniet, atque adipisci quisquam recusandae animi quaerat deserunt veritatis in labore!</p>
+                    <img src="https://i2.wp.com/www.31minutos.cl/wp-content/uploads/2014/01/thumb-tulio2.png?fit=300%2C300&ssl=1" alt="">
+                    <p class="details"><b>Tulio</b><br>Triviño</p>
+                </div>
+                <div class="col-md-5 testimonials">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vero maiores, eum nihil esse eveniet, atque adipisci quisquam recusandae animi quaerat deserunt veritatis in labore!</p>
+                    <img src="https://images2.mega.cl/meganoticias/2020/07/22/308355_1_5f1841d3ca8ee_950x535.jpg" alt="">
+                    <p class="details"><b>Bodoque</b><br>Juan Carlos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- socialmedia -->
+    <section id="social__media">
+        <div class="container text-center">
+            <p>Find Us In Social Media</p>
+            <div class="social__icons">
+                <a href=""><img src="https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-logotipo-del-icono-de-facebook-by-vexels.png" alt=""></a>
+                <a href=""><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt=""></a>
+                <a href=""><img src="https://i.pinimg.com/originals/3b/21/c7/3b21c7efd2ba9c119fb8d361acacc31d.png" alt=""></a>
+                <a href=""><img src="https://es.logodownload.org/wp-content/uploads/2018/10/whatsapp-logo-11-1019x1024.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
