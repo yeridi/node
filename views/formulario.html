@@ -77,27 +77,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <form action="result.html">
+                    <form action="/submit" method="POST">
                         <h2 class="mb-3">Leave your Comment</h2>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Name and Lastname</label>
-                          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" required>
+                          <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputPassword1" class="form-label">Gmail</label>
-                          <input type="email" class="form-control" id="email" required>
+                          <input type="email" class="form-control" id="email" name="email" required>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Phone</label>
-                            <input type="text" class="form-control" id="phone" aria-describedby="emailHelp" required>
+                            <input type="text" class="form-control" id="number" name="number" aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Date of birth</label>
-                            <input type="date" class="form-control" id="date" aria-describedby="emailHelp" required>
+                            <input type="date" class="form-control" id="date" name="date" aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-3 text__area">
                             <p>Message</p>
-                            <textarea name="" id="area" cols="50"></textarea>
+                            <textarea name="" id="message" cols="50" name="message"></textarea>
                         </div>
                         <div class="send text-center">
                             <button type="submit" class="btn btn-primary">Send My Opinion</button>
